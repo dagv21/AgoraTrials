@@ -1,0 +1,48 @@
+Patient's name: emmanuel
+Trial: 3
+Timing error
+(hs)
+-0.7 + 0.458257569496
+(ff)
+-0.955994897959 + 0.205106443183
+(ho)
+0.06 + 0
+(sw)
+-0.853170189099 + 0.353936177201
+Mean time (MT) and Coefficient of Variance (CoV)
+Results for threshold-based algorithm:
+(hs)
+Mean time: 0.406091370558 + 0.273685198094
+CoV: 67.3949800307
+(ff)
+Mean time: 1.65539916936 + 0.174613574257
+CoV: 10.5481250377
+(ho)
+Mean time: 0.352561144439 + 0.0688004506213
+CoV: 19.5144733634
+(sw)
+Mean time: 1.58375634518 + 0.26758968295
+CoV: 16.8958870324
+(Stride)
+Mean time: 4.03530226119 + 0.295866601192
+CoV: 7.3319563701
+Results for FSR:
+(hs)
+Mean time: 0.063508178229 + 0.0533477848765
+CoV: 84.0014410179
+(ff)
+Mean time: 0.648843767625 + 0.0808210030763
+CoV: 12.4561577238
+(ho)
+Mean time: 0.750934344843 + 0.0926134826672
+CoV: 12.3330998646
+(sw)
+Mean time: 0.523293852228 + 0.0323941526433
+CoV: 6.1904324894
+(Stride)
+Mean time: 1.99669195232 + 0.0555287245337
+CoV: 2.78103612674
+Accuracy: 60.7976708689%
+Sensitivity: 22.3000165389%
+Specificity: 74.0692171732%
+Bad classifier (G = 0.819127153003 > 0.7)
