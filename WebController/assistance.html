@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<script type="text/javascript">
+	function obtenerdatos() {
+
+		var time = document.getElementById("tiempo"),
+			tiempoobtenido = document.getElementById("tiempoobtenido");
+
+		tiempoobtenido.value = tiempo(seg).value;
+	}
+</script>
+
+<head>
+	<title>Asistencia </title>
+	<meta name="viewport" content="width=device-width, length=device-length, initial-scale=1">
+</head>
+
+<body background="image/fondo.jpg" style="background-repeat: no-repeat; background-position: center center;">
+
+	<center>
+
+		<h1>Modo Asistencia
+		</h1>
+
+		<br>
+		<br>
+
+		<p><u><FONT SIZE="5">Calibración del dispositivo</FONT></u></p>
+
+
+
+		<a href="calibration.html"><img src="image/start.png" width="7%" height="7%"></a>
+
+		<a href="calibration.html"><img src="image/stop.png" width="7%" height="7%"></a>
+
+		<br>
+
+		<p><u><FONT SIZE="5">Configuración de Asistencia</FONT></u></p>
+
+		<br>
+
+		<div>
+			<form name="registro">
+				<table border="1">
+					<tr>
+						<td>Tiempo [seg]:</td>
+						<td><input type="text" name="tiempo [seg]" id="tiempo"></td>
+					</tr>
+					<tr>
+						<td colspan "1"><input type="button" name="btn1" value="Enviar" onclick="obtenerdatos()"></td>
+					</tr>
+				</table><br /><br />
+
+
+				<table border="1">
+					<tr>
+						<td>Tiempo [seg]:</td>
+						<td><input type="text" name="tiempoobtenido" id="tiempoobtenido"></td>
+					</tr>
+				</table>
+			</form>
+
+		</div>
+
+		<br>
+
+		<a href="index.html"><img src="image/menu.png" width="10%" height="10%"></a>
+
+	</center>
+
+</body>
+
+</html></a>
+
+	</center>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<script type="text/javascript">
+	function obtenerdatos() {
+
+		var rep = document.getElementById("rep"),
+			repobtenido = document.getElementById("repobtenido");
+
+		repobtenido.value = rep.value;
+
+		var frec = document.getElementById("frec"),
+			frecobtenido = document.getElementById("frecobtenido");
+
+		frecobtenido.value = frec.value;
+
+		var vel = document.getElementById("vel"),
+			velobtenido = document.getElementById("velobtenido");
+
+		velobtenido.value = vel.value;
+
+
+	}
+
+</script>
+
+
+	<head>
+		<center><title>Modo Terapia   </title></center>
+		<meta name="viewport" content="width=device-width, length=device-length, initial-scale=1">
+	</head>
+
+	<body background="image/fondo.jpg" style="background-repeat: no-repeat; background-position: center center;">
+
+	<center>
+		<h1>Configuración de Terapia</h1>
+		<p><u><FONT SIZE="5">Calibración del dispositivo</FONT></u></p>
+
+
+			<a href="calibration.html"><img src="image/start.png" width="7%" height="70%"></a>
+
+			<a href="calibration.html"><img src="image/stop.png" width="7%" height="7%"></a>
+
+
+
+		<div>
+			<form name="registro">
+				<table border="1">
+					<tr>
+						<td>Número de repeticiones:</td>
+						<td><input type="text" name="rep" id="rep"></td>
+					</tr>
+
+					<tr>
+						<td>Frecuencia [repeticiones/seg]:</td>
+						<td><input type="text" name="frec" id="frec"></td>
+					</tr>
+
+					<tr>
+						<td>Velocidad [m/s]:</td>
+						<td><input type="text" name="vel" id="vel"></td>
+					</tr>
+
+					<tr>
+						<td colspan "3"><input type="button" name="btn1" value="Enviar" onclick="obtenerdatos()"></td>
+					</tr>
+				</table><br /><br />
+
+
+				<table border="1">
+					<tr>
+						<td>Número de repeticiones:</td>
+						<td><input type="text" name="repobtenido" id="repobtenido"></td>
+					</tr>
+
+					<tr>
+						<td>Frecuencia [repeticiones/seg]:</td>
+						<td><input type="text" name="frecobtenido" id="frecobtenido"></td>
+					</tr>
+
+					<tr>
+						<td>Velocidad [m/s]:</td>
+						<td><input type="text" name="velobtenido" id="velobtenido"></td>
+					</tr>
+
+				</table>
+			</form>
+
+		</div>
+
+
+
+		<br><br>
+
+			<a href="index.html"><img src="image/menu.png" width="10%" height="10%"></a>
+	</center>
+
+	</body>
+
+</html>
